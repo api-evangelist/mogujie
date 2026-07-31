@@ -1,7 +1,25 @@
 aid: mogujie
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/mogujie.png
 name: mogujie
-description: mogujie is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Mogujie (蘑菇街), operated by Mogu Inc. (NYSE MOGU), is a Chinese online
+  fashion and lifestyle social-commerce destination that pairs a shopping marketplace
+  with live video streaming and influencer-led content across apparel, beauty, and
+  accessories. The company was formed from the 2016 merger of Mogujie and Meilishuo,
+  is headquartered in Hangzhou, China, and listed on the New York Stock Exchange in
+  December 2018. Mogujie's historical third-party open platform (open.mogujie.com)
+  has been retired and now redirects away, and no active public API developer surface
+  was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/mogujie/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +29,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- E-Commerce
+- Fashion
+- Social Commerce
+- Live Streaming
+- Retail
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +46,11 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://mogujie.com
+  url: https://www.mogujie.com
+- type: DomainSecurity
+  url: security/mogujie-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
