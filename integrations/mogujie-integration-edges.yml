@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/mogujie/integrations
+- https://n8n.io/integrations/mogujie/
+- https://composio.dev/toolkits/mogujie
+- https://monid.ai/tools/mogujie
+checked:
+- https://composio.dev/toolkits/mogujie
+- https://monid.ai/tools/mogujie
+- https://n8n.io/integrations/mogujie/
+- https://zapier.com/apps/mogujie/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
